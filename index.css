@@ -1,0 +1,66 @@
+*{
+    margin: 10px;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif ;
+}
+.MainDiv
+{
+  margin: 0px 0px 0px 450px;  
+  /* border: 1px solid rgb(255,255,255,0.3); */
+  display: flex;
+  position: absolute;
+  background-color: rgb(255,255,255,0.2);
+  /* filter: blur(1px); */
+  /* backdrop-filter: blur(5px); */
+  border-radius: 10px;
+  width: 25vw;
+  height: 83vh;
+  overflow: hidden;
+}
+body{
+  background:url("https://external-preview.redd.it/JGzTVgPfXFx-PKCEZiq7hJVdgL8-3KMOFVHQOQiekgg.jpg?auto=webp&s=bdd5dac0c2b3fd6c7090d93a1137522a261736e8");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: scroll;
+  
+}
+.input
+{
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255,0.2);
+  color: black;
+  margin: 10px;
+  /* padding: auto; */
+  /* font-style: italic; */
+  color:black;
+  width: 250px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+.input:hover
+{
+  background: rgb(255, 255, 255,0.7);
+}
+.input ::placeholder
+{
+  color: #fff;
+  /* display: flex;
+  justify-content: center;
+  text-align: center; */
+
+}
+#loginBtn
+{
+  cursor: pointer;
+  background-color: rgb(255, 255, 255,0.7);
+}
+.login{
+  margin:0px 0px 0px 80px;
+  color:white;
+  font-family: sans-serif;
+}

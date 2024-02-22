@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyForm</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <h2>Sign Up </h2>
+
+    <div class="MainDiv">
+        <form action="">
+            <label for="usename"> Name</label>
+            <input type="text" class="input " id="username" name="fname" placeholder="First Name">
+            <br>
+            <label for="Email">Email</label>
+            <input type="email" class="input " id="email" name="email" placeholder="Email">
+            <br>
+            <label for="password">password</label>
+            <input type=" password" class="input" id="password" name="password" placeholder="password">
+            <br>
+            <p id="passwordStrength"></p>
+            <label for="password">Conform Password</label>
+            <input type="password" class="input" id=" conform password" placeholder="Conform Password">
+            <br>
+            <button type="submit" class="input" id="loginBtn" onclick="checkPassword()">Sign In</button>
+            
+           <p id="whitebtn">Have an Account?<a href="login.html">login Here</a></p>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
